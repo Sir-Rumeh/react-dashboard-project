@@ -2220,7 +2220,7 @@ export const ordersData = [
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
-      'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
+    product8,
   },
   {
     OrderID: 874534,
@@ -2231,7 +2231,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+    product8,
   },
   {
     OrderID: 38489,
@@ -2242,7 +2242,7 @@ export const ordersData = [
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
-      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
+    product8,
   },
   {
     OrderID: 24546,
@@ -2253,7 +2253,7 @@ export const ordersData = [
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
-      'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+    product8,
   },
   {
     OrderID: 874534,
@@ -2264,7 +2264,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+    product8,
   },
   {
     OrderID: 10248,
