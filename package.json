@@ -1,7 +1,7 @@
 {
   "name": "react_dashboard",
   "version": "0.1.0",
-  "homepage": "https://sir-rumeh.github.io/react-dashboard/",
+  "homepage": "https://sir-rumeh.github.io/react-dashboard-project",
   "private": true,
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
