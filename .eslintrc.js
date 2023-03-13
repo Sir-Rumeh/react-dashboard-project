@@ -1,21 +1,21 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     'plugin:react/recommended',
-    'airbnb',
+    'airbnb'
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: [
-    'react',
+    'react'
   ],
   rules: {
     'react/function-component-definition': 0,
@@ -26,14 +26,14 @@ module.exports = {
     'import/prefer-default-export': 0,
     'max-len': [
       2,
-      550,
+      550
     ],
     'no-multiple-empty-lines': [
       'error',
       {
         max: 1,
-        maxEOF: 1,
-      },
+        maxEOF: 1
+      }
     ],
     'no-underscore-dangle': [
       'error',
@@ -46,9 +46,9 @@ module.exports = {
           '_m',
           '_n',
           '_t',
-          '_text',
-        ],
-      },
+          '_text'
+        ]
+      }
     ],
     'object-curly-newline': 0,
     'react/jsx-filename-extension': 0,
@@ -62,19 +62,19 @@ module.exports = {
       'error',
       {
         components: [
-          'Link',
+          'Link'
         ],
         specialLink: [
           'to',
           'hrefLeft',
-          'hrefRight',
+          'hrefRight'
         ],
         aspects: [
           'noHref',
           'invalidHref',
-          'preferButton',
-        ],
-      },
-    ],
-  },
+          'preferButton'
+        ]
+      }
+    ]
+  }
 };
