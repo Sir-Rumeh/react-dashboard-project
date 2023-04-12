@@ -13,6 +13,8 @@
 		"@syncfusion/ej2-react-popups": "^19.4.52",
 		"@syncfusion/ej2-react-richtexteditor": "^19.4.50",
 		"@syncfusion/ej2-react-schedule": "^19.4.50",
+		"tailwindcss": "^3.0.19",
+		"autoprefixer": "^10.4.2",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"react-icons": "^4.3.1",
@@ -24,8 +26,8 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"lint": "eslint src/**/*.js",
-		"lint-fix": "eslint src/**/*.js --fix"
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix --ext .js,.jsx ."
 	},
 	"eslintConfig": {
 		"extends": [
@@ -46,15 +48,13 @@
 		]
 	},
 	"devDependencies": {
-		"autoprefixer": "^10.4.2",
-		"eslint": "^8.37.0",
+		"eslint": "^7.32.0 || ^8.2.0",
 		"eslint-config-airbnb": "^19.0.4",
-		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-jsx-a11y": "^6.7.1",
-		"eslint-plugin-react": "^7.32.2",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"postcss": "^8.4.6",
-		"tailwindcss": "^3.0.19"
+		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-react": "^7.28.0",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"postcss": "^8.4.6"
 	},
 	"main": "index.js",
 	"repository": "https://github.com/Sir-Rumeh/react-dashboard-project.git",

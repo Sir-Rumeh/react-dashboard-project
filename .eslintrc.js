@@ -20,6 +20,13 @@ module.exports = {
 		"react/state-in-constructor": 0,
 		"import/prefer-default-export": 0,
 		"max-len": [2, 550],
+		indent: ["off", "tab"],
+		"react/jsx-indent": ["off", "space"],
+		"no-tabs": ["off", { allowIndentationTabs: true }],
+		"react/jsx-indent-props": [0, "tab"],
+		quotes: [0, "single", { avoidEscape: true, allowTemplateLiterals: true }],
+		"operator-linebreak": [0, "before", { overrides: { "?": "after" } }],
+		"react/jsx-props-no-spreading": "off",
 		"no-multiple-empty-lines": [
 			"error",
 			{
