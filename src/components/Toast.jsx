@@ -3,23 +3,23 @@
 import { toast } from "react-toastify";
 
 const defaultOptions = {
-	position: "top-right",
+  position: "top-right",
 
-	autoClose: 5000,
+  autoClose: 5000,
 
-	hideProgressBar: true,
+  hideProgressBar: true,
 
-	closeOnClick: true,
+  closeOnClick: true,
 
-	pauseOnHover: true,
+  pauseOnHover: true,
 
-	draggable: true,
+  draggable: true,
 
-	progress: undefined,
+  progress: undefined,
 };
 
 const Toast = (message, option = {}) => {
-	toast(message, { ...defaultOptions, ...option });
+  toast(message, { ...defaultOptions, ...option });
 };
 
 export default Toast;
