@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+// import { ToastContainer } from "react-toastify";
 
-import './index.css';
-import App from './App';
-import { ContextProvider } from './contexts/ContextProvider';
+import "./index.css";
+import App from "./App";
+import { ContextProvider } from "./contexts/ContextProvider";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ContextProvider>
-      <App />
-    </ContextProvider>
-  </React.StrictMode>,
-	document.getElementById('root'),
+	<React.StrictMode>
+		<ContextProvider>
+			<App />
+		</ContextProvider>
+	</React.StrictMode>,
+	document.getElementById("root")
 );

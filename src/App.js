@@ -24,6 +24,9 @@ import Financial from "./pages/Charts/Financial";
 import Line from "./pages/Charts/Line";
 import Pie from "./pages/Charts/Pie";
 import Stacked from "./pages/Charts/Stacked";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css";
 
 import "./App.css";
 
@@ -45,6 +48,17 @@ const App = () => {
 	return (
 		<div className={currentMode === "Dark" ? "dark" : ""}>
 			<BrowserRouter>
+				<ToastContainer
+					position="top-right"
+					autoClose={2500}
+					hideProgressBar
+					newestOnTop={false}
+					closeOnClick
+					rtl={false}
+					pauseOnFocusLoss
+					draggable
+					pauseOnHover
+				/>
 				<div className="flex relative dark:bg-main-dark-bg">
 					<div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
 						<TooltipComponent content="Settings" position="Top">
