@@ -10,7 +10,7 @@ const FormInput = (props) => {
 					htmlFor={name}
 					className="text-xs leading-[14px] tracking-wider font-[600] text-primary-900 mb-3"
 				>
-					{/* {label} */}
+					{label}
 				</label>
 			)}
 			<input
