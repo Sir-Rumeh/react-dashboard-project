@@ -1,7 +1,7 @@
 import React from "react";
 
 const FormInput = (props) => {
-	const { label, name, placeholder, containerStyle } = props;
+	// const { label, name, placeholder, containerStyle } = props;
 
 	return (
 		<div className={`formInput flex flex-col pt-4 ${containerStyle}`}>
