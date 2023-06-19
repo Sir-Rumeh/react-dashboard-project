@@ -10,7 +10,7 @@ import Button from "./Button";
 const Cart = () => {
 	const { currentColor } = useStateContext();
 	const [total, setTotal] = useState(0);
-	// const [newCartData, setNewCartData] = useState([...cartData]);
+	const [newCartData, setNewCartData] = useState([...cartData]);
 
 	const updateCartData = (name, newValue) => {
 		setNewCartData((prev) => {
