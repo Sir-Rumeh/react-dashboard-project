@@ -19,7 +19,7 @@ import {
 	rangeColorMapping,
 } from "../../data/dummy";
 import ChartsHeader from "../../components/ChartsHeader";
-// import { useStateContext } from "../../contexts/ContextProvider";
+import { useStateContext } from "../../contexts/ContextProvider";
 
 const ColorMapping = () => {
 	const { currentMode } = useStateContext();
