@@ -11,7 +11,7 @@ import {
 
 import ChartsHeader from "../../components/ChartsHeader";
 import { areaCustomSeries, areaPrimaryXAxis, areaPrimaryYAxis } from "../../data/dummy";
-// import { useStateContext } from "../../contexts/ContextProvider";
+import { useStateContext } from "../../contexts/ContextProvider";
 
 const Area = () => {
 	const { currentMode } = useStateContext();
