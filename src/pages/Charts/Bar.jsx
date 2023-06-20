@@ -13,7 +13,7 @@ import {
 
 import { barCustomSeries, barPrimaryXAxis, barPrimaryYAxis } from "../../data/dummy";
 import ChartsHeader from "../../components/ChartsHeader";
-// import { useStateContext } from "../../contexts/ContextProvider";
+import { useStateContext } from "../../contexts/ContextProvider";
 
 const Bar = () => {
 	const { currentMode } = useStateContext();
