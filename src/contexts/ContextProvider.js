@@ -22,10 +22,10 @@ export const ContextProvider = ({ children }) => {
 	// 	localStorage.setItem("themeMode", e.target.value);
 	// };
 
-	// const setColor = (color) => {
-	// 	setCurrentColor(color);
-	// 	localStorage.setItem("colorMode", color);
-	// };
+	const setColor = (color) => {
+		setCurrentColor(color);
+		localStorage.setItem("colorMode", color);
+	};
 
 	const handleClick = (clicked) => setIsClicked({ ...initialState, [clicked]: true });
 
