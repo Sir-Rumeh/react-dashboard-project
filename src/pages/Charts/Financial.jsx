@@ -31,10 +31,10 @@ const Financial = () => {
 	const { currentMode } = useStateContext();
 
 	return (
-		<div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-			<ChartsHeader category="Financial" title="AAPLE Historical" />
-			<div className="w-full">
-				<ChartComponent
+  <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
+    <ChartsHeader category="Financial" title="AAPLE Historical" />
+    <div className="w-full">
+      <ChartComponent
 					id="charts"
 					primaryXAxis={FinancialPrimaryXAxis}
 					primaryYAxis={FinancialPrimaryYAxis}
@@ -42,10 +42,10 @@ const Financial = () => {
 					tooltip={{ enable: true, shared: true }}
 					crosshair={{ enable: true, lineType: "Vertical", line: { width: 0 } }}
 					background={currentMode === "Dark" ? "#33373E" : "#fff"}
-				>
-					<Inject services={[HiloSeries, Tooltip, DateTime, Logarithmic, Crosshair, Zoom]} />
-					<SeriesCollectionDirective>
-						<SeriesDirective
+      >
+        <Inject services={[HiloSeries, Tooltip, DateTime, Logarithmic, Crosshair, Zoom]} />
+        <SeriesCollectionDirective>
+          <SeriesDirective
 							dataSource={returnValue}
 							xName="x"
 							yName="low"
@@ -53,11 +53,11 @@ const Financial = () => {
 							type="Hilo"
 							low="low"
 							high="high"
-						/>
-					</SeriesCollectionDirective>
-				</ChartComponent>
-			</div>
-		</div>
+          />
+        </SeriesCollectionDirective>
+      </ChartComponent>
+    </div>
+  </div>
 	);
 };
 

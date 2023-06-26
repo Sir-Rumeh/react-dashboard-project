@@ -28,6 +28,7 @@ export const ContextProvider = ({ children }) => {
 	};
 
 	const handleClick = (clicked) => setIsClicked({ ...initialState, [clicked]: true });
+	const handleClose = (clicked) => setIsClicked({ ...initialState, [clicked]: false });
 
 	return (
 		// eslint-disable-next-line react/jsx-no-constructed-context-values
@@ -39,6 +40,7 @@ export const ContextProvider = ({ children }) => {
 				screenSize,
 				setScreenSize,
 				handleClick,
+				handleClose,
 				isClicked,
 				initialState,
 				setIsClicked,

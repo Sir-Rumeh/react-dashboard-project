@@ -1,5 +1,3 @@
-// import type { ToastContent, ToastOptions } from "react-toastify";
-
 import { toast } from "react-toastify";
 
 const defaultOptions = {

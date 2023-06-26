@@ -25,10 +25,10 @@ const ColorMapping = () => {
 	const { currentMode } = useStateContext();
 
 	return (
-		<div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-			<ChartsHeader category="Color Mappping" title="USA CLIMATE - WEATHER BY MONTH" />
-			<div className="w-full">
-				<ChartComponent
+  <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
+    <ChartsHeader category="Color Mappping" title="USA CLIMATE - WEATHER BY MONTH" />
+    <div className="w-full">
+      <ChartComponent
 					id="charts"
 					primaryXAxis={ColorMappingPrimaryXAxis}
 					primaryYAxis={ColorMappingPrimaryYAxis}
@@ -36,10 +36,10 @@ const ColorMapping = () => {
 					legendSettings={{ mode: "Range", background: "white" }}
 					tooltip={{ enable: true }}
 					background={currentMode === "Dark" ? "#33373E" : "#fff"}
-				>
-					<Inject services={[ColumnSeries, Tooltip, Category, Legend]} />
-					<SeriesCollectionDirective>
-						<SeriesDirective
+      >
+        <Inject services={[ColumnSeries, Tooltip, Category, Legend]} />
+        <SeriesCollectionDirective>
+          <SeriesDirective
 							dataSource={colorMappingData[0]}
 							name="USA"
 							xName="x"
@@ -49,17 +49,17 @@ const ColorMapping = () => {
 								topLeft: 10,
 								topRight: 10,
 							}}
-						/>
-					</SeriesCollectionDirective>
-					<RangeColorSettingsDirective>
-						{/* eslint-disable-next-line react/jsx-props-no-spreading */}
-						{rangeColorMapping.map((item, index) => (
-							<RangeColorSettingDirective key={index} {...item} />
+          />
+        </SeriesCollectionDirective>
+        <RangeColorSettingsDirective>
+          {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+          {rangeColorMapping.map((item, index) => (
+            <RangeColorSettingDirective key={index} {...item} />
 						))}
-					</RangeColorSettingsDirective>
-				</ChartComponent>
-			</div>
-		</div>
+        </RangeColorSettingsDirective>
+      </ChartComponent>
+    </div>
+  </div>
 	);
 };
 

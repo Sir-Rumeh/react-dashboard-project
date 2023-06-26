@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { toast } from "react-toastify";
 import { useStateContext } from "../contexts/ContextProvider";
 import { cartData } from "../data/dummy";
-import { notifySuccess } from "../utils/helpers";
-import Toast from "./Toast";
 import Button from "./Button";
 
+import "react-toastify/dist/ReactToastify.css";
+
 const Cart = () => {
-	const { currentColor } = useStateContext();
+	const { currentColor, handleClose } = useStateContext();
 	const [total, setTotal] = useState(0);
 	const [newCartData, setNewCartData] = useState([...cartData]);
+
+	const notify = () => {
+		handleClose("cart");
+		toast.success("Order Placed Successfully");
+	};
 
 	const updateCartData = (name, newValue) => {
 		setNewCartData((prev) => {
@@ -93,20 +99,14 @@ const Cart = () => {
 					</div>
 				</div>
 				<div className="mt-5">
-					<Button
-						color="white"
-						bgColor={currentColor}
-						text="Place Order"
-						borderRadius="10px"
-						width="full"
+					<button
 						type="button"
-						onClick={() => {
-							notifySuccess("Order placed successfully");
-							Toast("Order placed successfully", {
-								type: "success",
-							});
-						}}
-					/>
+						onClick={notify}
+						className="text-white text-center py-3 rounded-lg w-full"
+						style={{ backgroundColor: currentColor }}
+					>
+						Place Order
+					</button>
 				</div>
 			</div>
 		</div>
