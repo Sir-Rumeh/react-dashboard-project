@@ -35,7 +35,7 @@ export const ContextProvider = ({ children }) => {
 		<StateContext.Provider
 			value={{
 				// currentColor,
-				currentMode,
+				// currentMode,
 				activeMenu,
 				screenSize,
 				setScreenSize,
