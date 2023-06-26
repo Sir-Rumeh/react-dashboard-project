@@ -36,7 +36,7 @@ export const ContextProvider = ({ children }) => {
 			value={{
 				currentColor,
 				currentMode,
-				// activeMenu,
+				activeMenu,
 				// screenSize,
 				// setScreenSize,
 				// handleClick,
