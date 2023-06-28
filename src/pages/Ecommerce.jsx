@@ -22,7 +22,7 @@ import {
 import { useStateContext } from "../contexts/ContextProvider";
 
 const DropDown = ({ currentMode }) => (
-  <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
+  // <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
     <DropDownListComponent
       id="time"
       fields={{ text: "Time", value: "Id" }}
