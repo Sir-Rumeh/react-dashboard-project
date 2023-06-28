@@ -26,7 +26,7 @@ const Employees = () => {
           {employeesGrid.map((item, index) => (
             <ColumnDirective key={index} {...item} />
           ))}
-        </ColumnsDirective>
+        {/* </ColumnsDirective> */}
         <Inject services={[Search, Page]} />
       </GridComponent>
     </div>
