@@ -26,7 +26,7 @@ const Cart = () => {
 				}
 				// return item;
 			});
-			return updatedItems;
+			// return updatedItems;
 		});
 	};
 
