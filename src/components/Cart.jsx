@@ -14,7 +14,7 @@ const Cart = () => {
 	const [newCartData, setNewCartData] = useState([...cartData]);
 
 	const notify = () => {
-		// handleClose("cart");
+		handleClose("cart");
 		// toast.success("Order Placed Successfully");
 	};
 
