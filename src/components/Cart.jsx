@@ -15,7 +15,7 @@ const Cart = () => {
 
 	const notify = () => {
 		handleClose("cart");
-		// toast.success("Order Placed Successfully");
+		toast.success("Order Placed Successfully");
 	};
 
 	const updateCartData = (name, newValue) => {
