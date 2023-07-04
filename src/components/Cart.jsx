@@ -22,7 +22,7 @@ const Cart = () => {
 		setNewCartData((prev) => {
 			const updatedItems = prev.map((item) => {
 				if (item.name === name) {
-					// return { ...item, units: newValue };
+					return { ...item, units: newValue };
 				}
 				return item;
 			});
