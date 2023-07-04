@@ -24,7 +24,7 @@ const Cart = () => {
 				if (item.name === name) {
 					// return { ...item, units: newValue };
 				}
-				// return item;
+				return item;
 			});
 			return updatedItems;
 		});
