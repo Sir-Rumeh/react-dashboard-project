@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Cart = () => {
 	// const { currentColor, handleClose } = useStateContext();
-	const [total, setTotal] = useState(0);
+	// const [total, setTotal] = useState(0);
 	const [newCartData, setNewCartData] = useState([...cartData]);
 
 	const notify = () => {
