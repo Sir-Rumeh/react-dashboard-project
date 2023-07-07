@@ -32,7 +32,7 @@ const Chat = () => {
 						className="flex items-center gap-5 border-b-1 border-color p-3 leading-8 cursor-pointer"
 					>
 						<div className="relative">
-							{/* <img className="rounded-full h-10 w-10" src={item.image} alt={item.message} /> */}
+							<img className="rounded-full h-10 w-10" src={item.image} alt={item.message} />
 							<span
 								style={{ background: item.dotColor }}
 								className="absolute inline-flex rounded-full h-2 w-2 right-0 -top-1"
