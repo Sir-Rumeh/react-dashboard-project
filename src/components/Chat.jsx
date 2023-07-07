@@ -33,10 +33,10 @@ const Chat = () => {
 					>
 						<div className="relative">
 							{/* <img className="rounded-full h-10 w-10" src={item.image} alt={item.message} /> */}
-							{/* <span
+							<span
 								style={{ background: item.dotColor }}
 								className="absolute inline-flex rounded-full h-2 w-2 right-0 -top-1"
-							/> */}
+							/>
 						</div>
 						<div>
 							{/* <p className="font-semibold dark:text-gray-200 ">{item.message}</p>
