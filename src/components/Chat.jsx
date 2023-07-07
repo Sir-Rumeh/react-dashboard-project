@@ -46,13 +46,13 @@ const Chat = () => {
 					</div>
 				))}
 				<div className="mt-5">
-					<Button
+					{/* <Button
 						color="white"
 						bgColor={currentColor}
 						text="See all messages"
 						borderRadius="10px"
 						width="full"
-					/>
+					/> */}
 				</div>
 			</div>
 		</div>
