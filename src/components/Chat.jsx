@@ -40,7 +40,7 @@ const Chat = () => {
 						</div>
 						<div>
 							<p className="font-semibold dark:text-gray-200 ">{item.message}</p>
-							{/* <p className="text-gray-500 dark:text-gray-400 text-sm">{item.desc}</p> */}
+							<p className="text-gray-500 dark:text-gray-400 text-sm">{item.desc}</p>
 							<p className="text-gray-500 dark:text-gray-400 text-xs">{item.time}</p>
 						</div>
 					</div>
