@@ -3,7 +3,7 @@ import React from "react";
 
 import Button from "./Button";
 import { chatData } from "../data/dummy";
-// import { useStateContext } from "../contexts/ContextProvider";
+import { useStateContext } from "../contexts/ContextProvider";
 
 const Chat = () => {
 	const { currentColor } = useStateContext();
