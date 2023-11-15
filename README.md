@@ -8,8 +8,9 @@
 2. Tailwind CSS.
 3. Syncfusion.
 
-![Screenshot (1)](https://github.com/Sir-Rumeh/react-dashboard-project/assets/95687544/d36a6f0a-defa-4286-9fde-68b6e6c7d85c)
 
-![Screenshot (2)](https://github.com/Sir-Rumeh/react-dashboard-project/assets/95687544/8ac7ed76-9dc6-4975-89b2-161d0fb4946b)
+![Screenshot (1)](https://github.com/Sir-Rumeh/react-dashboard-project/assets/95687544/f99def75-2420-4d08-a3bb-3ac6e07f1fdb)
 
-![Screenshot (3)](https://github.com/Sir-Rumeh/react-dashboard-project/assets/95687544/2b221eb7-4ead-4e2a-bd78-cae8e8fbc1c1)
+![Screenshot (2)](https://github.com/Sir-Rumeh/react-dashboard-project/assets/95687544/41a7bf26-c485-4836-b79b-7e979d33029b)
+
+![Screenshot (3)](https://github.com/Sir-Rumeh/react-dashboard-project/assets/95687544/7a847503-5d3e-4a30-a33c-d6c5d5f5086c)
